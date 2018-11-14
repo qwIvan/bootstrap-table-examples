@@ -44,7 +44,7 @@
     var $table = $('#table');
     $(function () {
         $('#toolbar').find('select').change(function () {
-            $table.bootstrapTable('destroy').bootstrapTable({
+            $table.bootstrapTable({
                 exportDataType: $(this).val()
             });
         });
